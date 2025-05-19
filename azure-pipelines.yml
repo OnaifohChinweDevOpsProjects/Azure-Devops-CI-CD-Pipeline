@@ -13,7 +13,7 @@ steps:
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JAVA_HOME_17_AMD64'
+    javaHomeOption: '/usr/lib/jvm/java-17-openjdk-amd64'
     jdkVersionOption: '17'
     jdkArchitectureOption: 'amd64'
     publishJUnitResults: true
