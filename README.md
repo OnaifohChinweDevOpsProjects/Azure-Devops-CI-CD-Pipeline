@@ -55,9 +55,18 @@ Deploys the packaged artifact to the specified Azure Linux Web App using the Azu
 This task reads the artifact from the previous stage and pushes it to Azure.
 
 **📌 Notes**
-📦 Artifact Packaging: Only .jar or .war files in /target are uploaded and deployed.
+
+📦 Artifact Packaging: 
+
+Only .jar or .war files in /target are uploaded and deployed.
+
+
 🔒 Security: Keep secrets in Azure DevOps Library or use Azure Key Vault integration.
 ✅ Environment Approvals: You can enforce manual approval gates for the dev environment.
 📈 SonarQube Setup: Make sure your project key and name are consistent with what’s registered on your SonarQube server.
 
-🙋‍♂️ Author Chinwe Ebube Onaifoh 📫 onaifohchinwe094@gmail.com 📞 +1 (437) 473-4649 📍 Ajax, Ontario, Canada
+🙋‍♂️ Author 
+
+Chinwe Ebube Onaifoh 
+
+📫 onaifohchinwe094@gmail.com 📞 +1 (437) 473-4649 📍 Ajax, Ontario, Canada
