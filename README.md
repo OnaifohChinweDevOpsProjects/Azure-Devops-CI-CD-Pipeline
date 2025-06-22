@@ -51,7 +51,6 @@ Publishes them as build artifacts.
 - stage: Deploy
   displayName: Deploy stage
 Deploys the packaged artifact to the specified Azure Linux Web App using the AzureWebApp@1 task.
-
 - task: AzureWebApp@1
 This task reads the artifact from the previous stage and pushes it to Azure.
 
@@ -60,3 +59,5 @@ This task reads the artifact from the previous stage and pushes it to Azure.
 🔒 Security: Keep secrets in Azure DevOps Library or use Azure Key Vault integration.
 ✅ Environment Approvals: You can enforce manual approval gates for the dev environment.
 📈 SonarQube Setup: Make sure your project key and name are consistent with what’s registered on your SonarQube server.
+
+🙋‍♂️ Author Chinwe Ebube Onaifoh 📫 onaifohchinwe094@gmail.com 📞 +1 (437) 473-4649 📍 Ajax, Ontario, Canada
